@@ -174,8 +174,8 @@ bitflags = "2.0"
 bytemuck = { version = "1.0", features = ["derive"] }
 bytes = "1.6"
 cargo-hot = { package = "cargo-hot-protocol", git = "https://github.com/hecrj/cargo-hot.git", rev = "b8dc518b8640928178a501257e353b73bc06cf47" }
-cosmic-text = "0.14"
-cryoglyph = { git = "https://github.com/iced-rs/cryoglyph.git", rev = "453cedec0d2ec563bd7fa87e84a2319bcebb1ba3" }
+cosmic-text = { git = "https://github.com/pop-os/cosmic-text.git", rev = "355b7febb17ecb0522346fcc5aff6ea78e33e78a" }
+cryoglyph = { git = "https://github.com/toothrot/cryoglyph.git", rev = "5c9850c1d0bd54bd5621753ad9938d79edde879e" }
 futures = { version = "0.3", default-features = false }
 glam = "0.25"
 guillotiere = "0.6"
